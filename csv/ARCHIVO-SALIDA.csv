@@ -1,0 +1,6 @@
+RUNTIME El número debe ser un entero entre 1 y 2.000.000;Error;1997-10-01;RUNTIME Error
+RUNTIME El nombre debe tener un máximo de 128 caracteres;129 jghsdfkgjhsdflkjgh sdlkfjg hldsfkujgh dsflkjghdslfkjghdsfklj ghdfslkjgh sdfkljgh dsflkjgh dslfkjhgdfskljghdsflkj ghdsflkj gyg;1992-06-22;RUNTIME Error
+RUNTIME Fecha en formato incorrecto. El año debe estar representado por 4 dígitos numéricos;ERROR FECHA;199-03-12;RUNTIME Error
+RUNTIME Fecha en formato incorrecto. Debe ser YYYY-MM-DD;ERROR FECHA;1992-33-12;RUNTIME Error
+RUNTIME Fecha en formato incorrecto. Debe ser YYYY-MM-DD;ERROR FECHA;1995-03-52;RUNTIME Error
+RUNTIME El año debe ser mayor a 1900;ERROR FECHA BAJA;1720-03-52;RUNTIME Error

@@ -2,18 +2,15 @@ package com.example.batch.dto;
 
 import lombok.*;
 
-import java.util.Date;
-
 @Data
 @Builder
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class DatoDTO {
-
-    private Long numero;
+public class CSVRowDTO {
+    private String numero;
 
     private String nombre;
 
-    private Date fecha;
+    private String fecha;
 }

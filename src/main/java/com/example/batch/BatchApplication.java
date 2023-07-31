@@ -7,6 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BatchApplication {
 
 	public static void main(String[] args) {
+		if (args.length > 0) {
+			String inputFile = args[0];
+			System.setProperty("file.input", inputFile);
+		} else {
+			throw new IllegalArgumentException("Debe proporcionar el nombre del archivo de entrada como argumento.");
+		}
 		SpringApplication.run(BatchApplication.class, args);
 	}
 
